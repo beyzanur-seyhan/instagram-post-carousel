@@ -1,4 +1,4 @@
-# RESPONSIVE PORTFOLIO WEBSITE 🙍
+# INSTAGRAM POST CAROUSEL
 
 ![View](https://github.com/beyzanur-seyhan/instagram-post-carousel/blob/main/images/view.png?raw=true)
 
@@ -19,17 +19,16 @@
 
 ...
 
-▶️ [Live Demo](https://beyzanur-seyhan.github.io/responsive-portfolio-page/) ▶ Check out how the project looks
+▶️ [Live Demo](https://beyzanur-seyhan.github.io/instagram-post-carousel/) ▶ Check out how the project looks
 
-- In this project, there is a mobile-friendly portfolio site design.
-- Only the home page interface of this portfolio site example is coded.
-- The design of this project belongs to [LMPixels](https://themeforest.net/item/kerge-vcard-wordpress-theme/21801711).
+- This project is an example of a carousel slider with posts on Instagram.
+- There are 2 examples without javascript and with javascript.
 
 ## Used Languages Or Technologies
 
 - HTML (html structure)
-- CSS (grid and flex layout)
-- Javascript
+- CSS 
+- Javascript (mouse event and key event)
 
 ## Getting Started
 
