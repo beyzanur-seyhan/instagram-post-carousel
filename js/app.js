@@ -1,3 +1,4 @@
+/********************** DOM Definition Start **********************/
 let circles=document.querySelector(".circle");
 let img_area=document.querySelector('.img')
 let images=document.querySelectorAll(".img>img");
@@ -5,7 +6,9 @@ let rightbtn=document.querySelector(".right>a");
 let leftbtn=document.querySelector(".left>a");
 let submit=document.querySelector("#submit");
 let input=document.querySelector("#input");
+/********************** DOM Definition End **********************/
 
+/********************** Like Button Click Event Start **********************/
 like.addEventListener("click",function(){
 
     if(!(like.classList.contains('fa-solid'))){
@@ -20,7 +23,9 @@ like.addEventListener("click",function(){
     }
 
 })
+/********************** Like Button Click Event End **********************/
 
+/********************** Save Button Click Event Start **********************/
 save.addEventListener('click',()=>{
     if(!(save.classList.contains('fa-solid'))){
         save.classList.add("fa-solid");
@@ -33,7 +38,9 @@ save.addEventListener('click',()=>{
 
     }
 })
+/********************** Save Button Click Event End **********************/
 
+/********************** Input Key Down Event Start **********************/
 function inputKeyDown(){
     
     if(input.value.length>0){
@@ -44,7 +51,9 @@ function inputKeyDown(){
         submit.style.color='#CAE9FD';
     }
 }
+/********************** Input Key Down Event End **********************/
 
+/********************** Carousel's Circles Start **********************/
 for(let i=0;i<images.length;i++){
    circles.innerHTML+=`<i class="fa-solid fa-circle"></i>`
 }
@@ -55,7 +64,7 @@ rightbtn.addEventListener("click", rightBtn)
 leftbtn.addEventListener("click", leftBtn)
 leftbtn.style.display="none";
 
-
+/********************** Right Button Start **********************/
 function rightBtn(){
     leftbtn.style.display="block";
         img_area.scrollLeft+=601
@@ -72,7 +81,9 @@ function rightBtn(){
             circle[1].style.color="#A8A8A8";
         }
 }
+/********************** Right Button End **********************/
 
+/********************** Left Button Start **********************/
 function leftBtn(){
     rightbtn.style.display="block";
     
@@ -90,6 +101,8 @@ function leftBtn(){
     }
        
 }
+/********************** Left Button End **********************/
+/********************** Carousel's Circles End **********************/
 
 
 
