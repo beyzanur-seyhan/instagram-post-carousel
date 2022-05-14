@@ -5,40 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Post Slider</title>
+    <!-- Style File -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Kit Link -->
     <script src="https://kit.fontawesome.com/25942c7a88.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <!-- No Javascript Example Start -->
     <div class="container">
         <h1 class="text-center">NO JS</h1>
+        
+        <!-- Header Area Start -->
         <header>
             <img src="img/person.jpg" alt="">
             <p>beyzanur-seyhan</p>
             <i class="fa-solid fa-ellipsis"></i>
         </header>
+        <!-- Header Area End -->
+
+        <!-- Main Area Start -->
         <main>
             <img src="img/post.jpg" alt="">
         </main>
+        <!-- Main Area End -->
+
+        <!-- Footer Area Start -->
         <footer>
-
+            <!-- Top Area Start -->
             <div class="top">
-
+                <!-- Left Area Start -->
                 <div class="left">
+                    <!-- Icons Start -->
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-regular fa-comment"></i>
                     <i class="fa-regular fa-paper-plane"></i>
+                    <!-- Icons End -->
                 </div>
+                <!-- Left Area End -->
+                
+                <!-- Right Area Start -->
                 <div class="right">
                     <i class="fa-regular fa-bookmark"></i>
-                    
                 </div>
-
-            </div>            
+                <!-- Right Area End -->
+            </div>
+            <!-- Top Area End --> 
+            
+            <!-- Center Area Start --> 
             <div class="center">
                 <p><b>26 beğenme</b></p>
                 <span>11 SAAT ÖNCE</span>
             </div>
+            <!-- Center Area End -->
+
+            <!-- Bottom Area Start -->
             <div class="bottom">
                 <i class="fa-regular fa-face-smile-wink"></i>
                 <input type="text" placeholder="Yorum ekle...">
@@ -46,18 +66,26 @@
                     <a href="#">Paylaş</a>
                 </span>
             </div>
+            <!-- Bottom Area End -->
         </footer>
-
+        <!-- Footer Area End -->
+    
     </div>
+    <!-- No Javascript Example End -->
 
+    <!-- With Javascirpt Example Start -->
     <div class="container">
         <h1 class="text-center">WITH JS</h1>
+
+        <!-- Header Area Start -->
         <header>
             <img src="img/person.jpg" alt="">
             <p>beyzanur-seyhan</p>
             <i class="fa-solid fa-ellipsis"></i>
         </header>
-       
+        <!-- Header Area End -->
+
+        <!-- Main Area Start -->
         <main>
             <div class="left">
                <a href="#"> <i class="fa-solid fa-circle-chevron-left"></i></a>
@@ -84,26 +112,37 @@
                 <a href="#"><i class="fa-solid fa-circle-chevron-right"></i></a>
             </div>
         </main>
-        
+        <!-- Main Area End -->
+
+        <!-- Footer Area Start -->
         <footer>
-
+            <!-- Top Area Start -->
             <div class="top">
-
+                <!-- Left Area Start -->
                 <div class="left">
+                    <!-- Icons Start -->
                     <i class="fa-regular fa-heart" id="like"></i>
                     <i class="fa-regular fa-comment"></i>
                     <i class="fa-regular fa-paper-plane"></i>
-                </div>
-                <div class="right">
-                    <i class="fa-regular fa-bookmark" id="save"></i>
-                    
+                    <!-- Icons End -->
                 </div>
 
-            </div>            
+                <!-- Right Area Start -->
+                <div class="right">
+                    <i class="fa-regular fa-bookmark" id="save"></i>
+                </div>
+                <!-- Right Area End -->
+            </div>
+            <!-- Top Area End --> 
+            
+            <!-- Center Area Start --> 
             <div class="center">
                 <p><b>26 beğenme</b></p>
                 <span>11 SAAT ÖNCE</span>
             </div>
+            <!-- Center Area End -->
+
+            <!-- Bottom Area Start -->
             <div class="bottom">
                 <i class="fa-regular fa-face-smile-wink"></i>
                 <input type="text" id="input" onkeyup="inputKeyDown()" placeholder="Yorum ekle...">
@@ -111,11 +150,11 @@
                     <a href="#" id="submit">Paylaş</a>
                 </span>
             </div>
+            <!-- Bottom Area End -->
         </footer>
-
+        <!-- Footer Area End -->
     </div>
-
-
+    <!-- With Javascirpt Example End -->
 
 </body>
 <script src="js/app.js"></script>
