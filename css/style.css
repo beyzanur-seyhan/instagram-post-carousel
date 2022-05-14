@@ -1,3 +1,4 @@
+/********************** Global Features Start **********************/
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
@@ -20,23 +21,47 @@ body{
     margin-bottom: 15px;
     font-size: 42px
 }
+/********************** Global Features End **********************/
 
+/********************** Container Features Start **********************/
 .container{
     background-color: white;
     width:600px;  
 }
+/********************** Container Features End **********************/
 
+/********************** Header Features Start **********************/
 header{
     display: flex;
     align-items: center;
     padding: 8px 14px;
 }
 
+header>img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    margin-right: 12px;
+}
+
+header>p{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+header>i{
+    margin-left: auto;
+    font-size: 14px;
+    color: #262626;
+}
+
 header,footer{
     border: 1px solid #dbdbdb;
     border-radius: 3px;
 }
+/********************** Header Features End **********************/
 
+/********************** Main Features Start **********************/
 main{
     width: 600px;
     height: 600px;
@@ -84,7 +109,6 @@ main>.post>.img::-webkit-scrollbar{
 main>.post>.img>img{
     width:100%;
     height:100%;
-    /* scroll-snap-align: start; */
 }
 
 main>.post>.circle{
@@ -96,29 +120,12 @@ main>.post>.circle{
     gap: 5px;
 }
 
-
 main>.post>.circle>i:first-child{
     color: #0095f6;
 }
+/********************** Main Features End **********************/
 
-header>img{
-    width: 32px;
-    height: 32px;
-    border-radius: 100px;
-    margin-right: 12px;
-}
-
-header>p{
-    font-size: 11px;
-    font-weight: 700;
-}
-
-header>i{
-    margin-left: auto;
-    font-size: 14px;
-    color: #262626;
-}
-
+/********************** Footer Features Start **********************/
 footer{
     display: flex;
     flex-direction: column;
@@ -166,7 +173,6 @@ footer>.bottom{
     justify-content: space-between;
 }
 
-
 footer>.bottom>input{
     width: 100%;
     padding: 10px 0;
@@ -185,16 +191,15 @@ footer>.bottom>span>a{
     text-decoration: none;
 }
 
-/* footer>.top i:hover{
-    color: gray;
-} */
-
 footer i{
     cursor: pointer;
 }
+/********************** Footer Features End **********************/
 
+/********************** Media Query Features Start **********************/
 @media screen and (max-width:990px){
     body{
         flex-direction: column;
     }
 }
+/********************** Media Query Features End **********************/
